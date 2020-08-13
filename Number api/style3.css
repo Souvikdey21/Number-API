@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 56;
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px;
+    text-shadow: 0.5vw 0.5vw white;
+    font-size: 5vw;
+    color: #f6b93b;
+}
+
+.form-group {
+    font-size: 2vw;
+    color: white;
+}
+
+.form-control {
+    border-style: solid;
+    border-width: 2px;
+    width: 480px;
+}
+
+.radio-inline {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
